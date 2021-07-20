@@ -20,10 +20,10 @@ max_x_range = [A[0], B[0]]  # maxmum range of x
 
 max_y_range = [A[1], C[1]]  # maxmum range of y
 
-bottom_x = A[1]
-top_x = C[1]
-left_y = A[0]
-right_y = C[0]
+bottom_x = A[1]  # wrt y
+top_x = C[1]   # wrt y
+left_y = A[0]  # wrt x
+right_y = C[0]  # wrt x
 
 
 for cord in cordinates:
