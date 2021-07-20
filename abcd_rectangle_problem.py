@@ -9,6 +9,7 @@ C = [4, 6]
 D = [2, 6]
 
 # Cordinates
+# Sample cordinates
 cordinates = [[[2, 3], [2, 4]], [[2, 4], [2, 7]], [
     [2, 2], [4, 2]], [[2, 4], [4, 4]], [[5, 2], [5, 5]]]
 
@@ -31,14 +32,14 @@ for cord in cordinates:
     if max_x_range[0] <= cord[0][0] <= max_x_range[1] and max_y_range[0] <= cord[0][1] <= max_y_range[1] and \
             max_x_range[0] <= cord[1][0] <= max_x_range[1] and max_y_range[0] <= cord[1][1] <= max_y_range[1]:
 
-        #check if x cordinates equals 
+        # check if x cordinates equals
         if cord[0][0] == cord[1][0]:
             if cord[0][0] == left_y or cord[0][0] == right_y:
                 print("True")
             else:
                 print("False")
 
-        #check if y cordinates equals
+        # check if y cordinates equals
         elif cord[0][1] == cord[1][1]:
             if cord[0][1] == bottom_x or cord[0][1] == top_x:
                 print("True")
